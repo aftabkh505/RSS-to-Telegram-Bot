@@ -11,8 +11,8 @@ COPY . /app
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Define environment variable
-ENV TOKEN X
-ENV CHATID X
+ENV TOKEN 1208543224:AAF-fgrmkVRII1a8phPm9i4S8e1kmrepIII
+ENV CHATID -1001173845069
 ENV DELAY 5
 
 # Run app.py when the container launches
